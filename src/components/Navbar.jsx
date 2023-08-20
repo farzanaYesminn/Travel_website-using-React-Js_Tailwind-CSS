@@ -45,10 +45,12 @@ const Navbar = () => {
         <div onClick={ handleNav } className='sm:hidden z-10'>
           <FaBars size={20} className='mr-4 cursor-pointer' />
         </div>
-        <div class={
+        <div 
+        onClick={handleNav}
+        className={
           nav 
           ? 'overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 py-7 px-4 flex flex-col' 
-          : 'absolute top- h-screen left-[-100%] ease-in duration-500'}>
+          : 'absolute top- h-screen left-[-100%] ease-in duration-300'}>
           <ul className='h-full w-full text-center pt-12'>
               <li className='text-2xl py-8'>
                   <a herf='/'> Home </a>
