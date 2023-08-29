@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from "../assets/banner.jpg"
 
 const Activities = () => {
+  
   return (
     <div className='max-w-[1140px] m-auto w-full
      md:flex mt-[-75px]'>  
