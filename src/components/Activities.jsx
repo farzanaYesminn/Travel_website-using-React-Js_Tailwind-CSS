@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from "../assets/banner.jpg"
 
 const Activities = () => {
   return (
@@ -8,7 +9,7 @@ const Activities = () => {
             <h3 className='absolute z-10 top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]  text-white 		 text-4xl font-bold '> 
             Resorts
             </h3>
-            <img src=' src\assets\resort.jpg '  className='w-full h-full object-cover relative border-4 border-white shadow-lg '/>            
+            <img src={img1}  className='w-full h-full object-cover relative border-4 border-white shadow-lg '/>            
         </div>
 
         <div className='relative p-4'>
