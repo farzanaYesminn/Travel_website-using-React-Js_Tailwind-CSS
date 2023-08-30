@@ -1,13 +1,10 @@
 import React from 'react'
+import img3 from "../assets/banner.jpg";
 
 const Hero = () => {
   return (
     <div className='w-full h-[90vh]'>
-        <img 
-        src="src\assets\banner.jpg" 
-        alt='/'  
-        className='w-full h-full object-cover'
-        />
+        < img src={img3} alt='/' className='w-full h-full object-cover' />
 
         <div className='max-w-[1140px] m-auto'>
             <div className='absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4'>

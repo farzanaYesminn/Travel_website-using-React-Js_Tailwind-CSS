@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import img1 from "../assets/resort.jpg";
+import img2 from "../assets/ship.jpg";
 
 const Gallery = () => {
   return (
@@ -7,19 +9,19 @@ const Gallery = () => {
        <div className='grid sm:grid-cols-5 gap-4'>
     
         <div className='sm:col-span-3 col-span-2 row-span-2'>
-            <img className='w-full h-full object-cover ' src='src\assets\resort.jpg'/>
+            <img className='w-full h-full object-cover ' src={img1}/>
         </div>
         <div>
-            <img className='w-full h-full object-cover ' src='src\assets\ship.jpg'/>
+            <img className='w-full h-full object-cover ' src={img2}/>
         </div>
         <div>
-            <img className='w-full h-full object-cover ' src='src\assets\resort.jpg'/>
+            <img className='w-full h-full object-cover ' src={img1}/>
         </div>
         <div>
-            <img className='w-full h-full object-cover ' src='src\assets\ship.jpg'/>
+            <img className='w-full h-full object-cover ' src={img2}/>
         </div>
         <div>
-            <img className='w-full h-full object-cover ' src='src\assets\resort.jpg'/>
+            <img className='w-full h-full object-cover ' src={img1}/>
         </div>
 
        </div>
