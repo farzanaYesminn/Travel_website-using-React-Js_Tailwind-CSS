@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from "../assets/banner.jpg";
 
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
       <p className='text-center text-gray-700 py-2'>We're standing by:</p>
       <div className='grid md:grid-cols-2'> 
         <img 
-      src='src\assets\banner.jpg'
+      src={img1}
       className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]'
        />
        <form>
